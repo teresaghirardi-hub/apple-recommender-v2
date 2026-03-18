@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: apple-recommender
+    env: docker
+    dockerfilePath: ./05-cicd/Dockerfile
+    branch: main
+    autoDeployEnabled: false

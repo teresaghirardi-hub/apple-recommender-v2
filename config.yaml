@@ -1,0 +1,67 @@
+data:
+  raw_path: "data/apple_sales.csv"
+  test_size: 0.2
+  random_state: 42
+
+features:
+  categorical_high_cardinality: ["country", "city", "product_name", "color"]
+  categorical_ohe: ["category", "region"]
+  ordinal: ["customer_age_group"]
+  ordinal_categories:
+    customer_age_group: ["18–24", "25–34", "35–44", "45–54", "55+"]
+  target: "customer_segment"
+  drop_columns:
+    - "sale_id"
+    - "sale_date"
+    - "year"
+    - "quarter"
+    - "month"
+    - "storage"
+    - "unit_price_usd"
+    - "discount_pct"
+    - "units_sold"
+    - "discounted_price_usd"
+    - "revenue_usd"
+    - "currency"
+    - "fx_rate_to_usd"
+    - "revenue_local_currency"
+    - "sales_channel"
+    - "payment_method"
+    - "previous_device_os"
+    - "customer_rating"
+    - "return_status"
+
+model:
+  artifact_path: "models/pipeline.pkl"
+  hyperparams:
+    n_estimators: [100, 200]
+    max_depth: [5, 10, null]
+    min_samples_split: [2, 5]
+
+revenue_model:
+  artifact_path: "models/revenue_pipeline.pkl"
+  features:
+    categorical_high_cardinality: ["country", "city", "product_name", "color"]
+    categorical_ohe: ["category", "region", "sales_channel", "payment_method"]
+    ordinal: ["customer_age_group"]
+    ordinal_categories:
+      customer_age_group: ["18–24", "25–34", "35–44", "45–54", "55+"]
+    numeric: ["discount_pct", "units_sold"]
+    target: "revenue_usd"
+  hyperparams:
+    n_estimators: [100, 200]
+    max_depth: [5, 10, null]
+    min_samples_split: [2, 5]
+  mlflow_experiment: "apple-revenue-predictor"
+
+mlflow:
+  experiment_name: "apple-segment-classifier"
+  tracking_uri: "mlruns"
+
+monitoring:
+  reference_data_path: "data/reference.csv"
+  report_output_path: "reports/drift_report.png"
+
+api:
+  host: "0.0.0.0"
+  port: 8000

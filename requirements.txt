@@ -1,0 +1,27 @@
+# Core ML
+scikit-learn
+pandas
+numpy
+joblib
+category-encoders
+
+# Experiment tracking
+mlflow
+
+# API
+fastapi
+uvicorn
+pydantic
+
+# UI
+streamlit
+matplotlib
+
+# Config
+pyyaml
+python-dotenv
+
+# Testing & linting
+pytest
+httpx
+flake8

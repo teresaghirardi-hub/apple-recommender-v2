@@ -1,0 +1,57 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ── Job 1: Lint and test ───────────────────────────────────────────────────
+  lint-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Lint with flake8
+        run: |
+          flake8 02-experiment-tracking/ 03-deployment/ 04-monitoring/ \
+            --max-line-length=100 \
+            --ignore=E501,W503,E241,E221,E302,E305,W292,W391,E272,W291,E226,E231,W293
+
+      - name: Run unit tests
+        run: |
+          cd 03-deployment
+          pytest test_predict.py -v
+
+  # ── Job 2: Build Docker image ──────────────────────────────────────────────
+  build:
+    needs: lint-test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -f 05-cicd/Dockerfile -t apple-recommender .
+
+  # ── Job 3: Deploy to Render (only on push to main) ─────────────────────────
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    steps:
+      - name: Trigger Render deploy
+        run: curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"

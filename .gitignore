@@ -1,0 +1,17 @@
+# Models (generated at build time — never commit)
+models/
+mlruns/
+
+# Generated at training time
+data/reference.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Secrets
+.env
+
+# OS
+.DS_Store

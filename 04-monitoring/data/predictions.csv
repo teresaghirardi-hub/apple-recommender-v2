@@ -1,0 +1,501 @@
+product_name,category,color,customer_age_group,region,country,city
+MacBook Air,iPad,Starlight,45–54,Europe,United Kingdom,London
+Mac mini,Mac,Gold,25–34,South America,United States,London
+iPad Pro,iPhone,Midnight,25–34,North America,United States,Madrid
+MacBook Pro,Apple Watch,Silver,55+,Middle East,United States,London
+iPhone 15,iPad,Starlight,25–34,Europe,United Kingdom,New York
+iPhone 15,iPhone,Space Gray,35–44,North America,United Kingdom,London
+iPhone 15,AirPods,Black,45–54,North America,France,Paris
+Apple Watch Series 9,Apple Watch,Starlight,18–24,Asia,United States,New York
+MacBook Pro,AirPods,Space Gray,35–44,Europe,Germany,New York
+iPad Pro,iPad,Midnight,55+,Asia,Germany,New York
+iPhone 15,Mac,Midnight,25–34,North America,United States,New York
+Mac mini,Mac,Black,45–54,North America,United States,Paris
+Apple Watch Series 9,AirPods,White,35–44,Europe,United States,Berlin
+iPhone 15 Pro,Apple Watch,Black,35–44,North America,United States,New York
+iPhone 15,iPhone,Gold,35–44,Europe,United States,Berlin
+iPhone 15,iPhone,Starlight,25–34,Middle East,United States,New York
+iPhone 15 Pro,Mac,Silver,55+,Africa,United States,Madrid
+MacBook Pro,Apple Watch,White,55+,Oceania,Germany,Madrid
+MacBook Air,Accessories,Black,35–44,Asia,United States,New York
+iPhone 15 Pro,iPhone,Space Gray,45–54,North America,Germany,Paris
+MacBook Pro,Mac,White,35–44,Europe,United Kingdom,Berlin
+iPhone 15,Mac,Starlight,35–44,Europe,France,New York
+iPhone 15 Pro,Accessories,White,35–44,Asia,United Kingdom,New York
+MacBook Air,Apple Watch,Starlight,35–44,North America,United States,London
+MacBook Air,Apple Watch,Black,35–44,Europe,United Kingdom,Berlin
+iPad,Mac,Starlight,45–54,North America,United States,Madrid
+iPhone 15,Mac,White,35–44,Europe,United States,Berlin
+MacBook Pro,iPhone,Space Gray,18–24,South America,France,Paris
+MacBook Pro,iPhone,Midnight,25–34,Asia,United States,London
+iPhone 15,Apple Watch,White,25–34,North America,United States,Paris
+MacBook Pro,Apple Watch,Starlight,35–44,Africa,Germany,Berlin
+iPhone 15,Accessories,Midnight,35–44,Europe,France,New York
+iPhone 15,Accessories,Starlight,35–44,North America,United Kingdom,London
+AirPods Pro,Mac,Space Gray,35–44,North America,United States,Paris
+Mac mini,iPad,Starlight,35–44,North America,United Kingdom,New York
+iPad,AirPods,Black,25–34,North America,United States,Paris
+iPhone 15 Pro,Apple Watch,Silver,35–44,Oceania,Germany,New York
+iPhone 15,iPhone,White,35–44,Europe,Spain,London
+iPad Pro,Mac,Silver,45–54,South America,Germany,Paris
+MacBook Air,iPhone,Starlight,25–34,North America,France,New York
+iPhone 15,Accessories,Space Gray,18–24,North America,United States,New York
+MacBook Air,Mac,White,25–34,Europe,Germany,London
+iPhone 15,iPhone,Starlight,18–24,North America,Germany,Paris
+AirPods Pro,iPad,Midnight,35–44,Europe,United States,New York
+iPhone 15 Pro,Mac,Gold,25–34,Oceania,France,Paris
+iPad Pro,Mac,Starlight,35–44,Europe,United States,New York
+iPhone 15 Pro,iPhone,Silver,35–44,Europe,United Kingdom,Madrid
+MacBook Pro,iPad,White,18–24,North America,Germany,Madrid
+MacBook Pro,Mac,Silver,25–34,North America,United Kingdom,London
+iPhone 15,iPad,White,25–34,North America,United States,London
+Mac mini,Mac,Starlight,25–34,Europe,United Kingdom,London
+iPad,Apple Watch,Black,25–34,North America,United Kingdom,London
+AirPods Pro,Mac,Midnight,45–54,North America,France,New York
+Apple Watch Series 9,Mac,Starlight,25–34,Europe,United States,New York
+MacBook Pro,Apple Watch,Silver,55+,North America,United States,New York
+AirPods Pro,Mac,Gold,25–34,North America,Germany,London
+iPhone 15,iPhone,Gold,45–54,North America,United States,New York
+iPhone 15,iPhone,Space Gray,35–44,Oceania,United Kingdom,London
+iPhone 15,iPad,White,35–44,Europe,United Kingdom,Madrid
+iPhone 15 Pro,Mac,Silver,45–54,Europe,France,New York
+MacBook Air,iPad,Space Gray,35–44,North America,United Kingdom,London
+iPhone 15 Pro,iPhone,Silver,35–44,Middle East,United Kingdom,London
+iPad,iPhone,White,35–44,Europe,United States,Paris
+MacBook Air,iPhone,Starlight,35–44,North America,United States,Paris
+iPhone 15 Pro,Mac,Starlight,18–24,South America,United States,Paris
+MacBook Pro,Mac,Gold,25–34,North America,United States,Madrid
+iPhone 15,Mac,Starlight,35–44,Europe,United Kingdom,New York
+iPad,Mac,Starlight,35–44,Europe,Germany,Paris
+iPhone 15,AirPods,Black,45–54,North America,United Kingdom,Berlin
+iMac,iPhone,Gold,35–44,Africa,Germany,New York
+iPad,Mac,Space Gray,55+,Asia,Spain,Madrid
+iPhone 15,iPad,Midnight,25–34,Europe,Germany,New York
+iPhone 15,Mac,Black,25–34,North America,United Kingdom,Berlin
+iPad,Mac,Space Gray,25–34,North America,United Kingdom,New York
+iPad Pro,Apple Watch,White,35–44,North America,United States,London
+iPad Pro,AirPods,Black,45–54,Asia,United States,Berlin
+iPad,iPhone,Space Gray,25–34,North America,United States,London
+iPhone 15,AirPods,White,45–54,Europe,France,London
+MacBook Air,Mac,Gold,25–34,Asia,Germany,New York
+iPhone 15,iPhone,Midnight,35–44,North America,United States,Paris
+Apple Watch Series 9,Mac,White,35–44,Europe,United States,New York
+MacBook Pro,Accessories,Starlight,25–34,North America,Germany,London
+iPhone 15 Pro,Mac,Silver,35–44,Africa,United States,Paris
+iPhone 15,iPhone,White,25–34,Europe,United States,Paris
+iPhone 15 Pro,Mac,White,18–24,North America,France,London
+iPhone 15 Pro,iPhone,Midnight,25–34,North America,United States,Berlin
+iPad Pro,iPhone,Silver,18–24,Europe,United States,Paris
+MacBook Pro,iPhone,Starlight,25–34,Asia,United Kingdom,Paris
+Apple Watch Series 9,iPhone,Space Gray,35–44,Asia,France,London
+MacBook Air,iPhone,Space Gray,35–44,Europe,United Kingdom,New York
+iPhone 15,iPhone,White,35–44,North America,United States,New York
+iPad Pro,Mac,Silver,18–24,North America,United States,New York
+iPad,iPhone,Silver,35–44,North America,United States,London
+MacBook Pro,iPhone,Starlight,25–34,Europe,United Kingdom,New York
+iPad,AirPods,Midnight,25–34,South America,Germany,London
+MacBook Air,Mac,Gold,45–54,Europe,United States,New York
+MacBook Pro,iPad,Space Gray,18–24,North America,France,New York
+MacBook Air,iPhone,Midnight,35–44,Europe,United States,Paris
+iPhone 15,iPhone,Black,35–44,Asia,United States,London
+iPhone 15,iPhone,Space Gray,25–34,Asia,United States,New York
+iPhone 15,iPhone,Midnight,25–34,South America,United States,Paris
+MacBook Pro,iPhone,Space Gray,25–34,North America,United Kingdom,New York
+iPhone 15 Pro,iPhone,Gold,45–54,North America,United Kingdom,Berlin
+MacBook Pro,iPhone,Black,25–34,South America,United States,Berlin
+AirPods Pro,iPhone,Gold,25–34,Europe,United Kingdom,New York
+iPhone 15 Pro,Mac,Starlight,25–34,North America,United States,Paris
+MacBook Air,iPhone,Black,35–44,Asia,Germany,London
+iPad,Mac,White,25–34,Asia,France,London
+iPhone 15 Pro,Mac,Midnight,25–34,Europe,United States,New York
+iPhone 15,iPad,Black,35–44,Europe,United Kingdom,New York
+iPhone 15 Pro,iPhone,Starlight,55+,North America,United States,Madrid
+iPhone 15,iPad,Starlight,25–34,Europe,United States,New York
+AirPods Pro,Mac,Gold,25–34,Europe,United States,London
+iPad,iPhone,Space Gray,25–34,Asia,Germany,London
+MacBook Pro,Apple Watch,Black,35–44,Asia,United Kingdom,London
+Apple Watch Series 9,AirPods,Midnight,25–34,Asia,United States,New York
+iPad,iPhone,Black,35–44,North America,Germany,New York
+iPhone 15,iPhone,Silver,45–54,Asia,United Kingdom,Berlin
+Apple Watch Series 9,Apple Watch,Space Gray,35–44,Asia,Germany,New York
+MacBook Pro,iPad,Midnight,25–34,Europe,United Kingdom,New York
+iPad,iPhone,Midnight,45–54,Asia,United Kingdom,New York
+Apple Watch Series 9,iPhone,White,35–44,Asia,United States,London
+iPhone 15 Pro,Mac,Gold,35–44,Europe,United States,Paris
+iPhone 15,Mac,White,18–24,Europe,Spain,New York
+iPhone 15 Pro,Mac,Midnight,55+,North America,United States,New York
+MacBook Air,Mac,Space Gray,25–34,North America,Spain,New York
+iPad,Mac,Black,25–34,Europe,United Kingdom,Berlin
+Apple Watch Series 9,iPad,Black,18–24,Asia,United States,London
+iPhone 15,iPhone,Space Gray,35–44,North America,United States,London
+MacBook Pro,iPhone,Midnight,25–34,North America,United States,Berlin
+MacBook Air,iPad,Starlight,25–34,Europe,France,London
+iPhone 15 Pro,AirPods,Black,18–24,North America,United States,Paris
+iPhone 15,Mac,Starlight,25–34,North America,United States,Paris
+iPhone 15 Pro,Mac,Black,35–44,North America,United States,New York
+AirPods Pro,iPhone,Black,35–44,North America,United States,New York
+iPhone 15 Pro,Mac,Gold,25–34,North America,United States,New York
+MacBook Pro,Mac,Gold,35–44,North America,United States,New York
+iPad Pro,iPhone,Silver,35–44,Europe,Germany,Madrid
+MacBook Air,iPhone,White,18–24,South America,United States,London
+Mac mini,Mac,Space Gray,25–34,Europe,United States,New York
+Mac mini,iPhone,Space Gray,55+,Asia,United States,Berlin
+iPhone 15 Pro,iPhone,Space Gray,35–44,North America,United States,London
+MacBook Air,iPhone,Silver,25–34,North America,Spain,New York
+iPhone 15 Pro,iPhone,Gold,35–44,Asia,United Kingdom,New York
+iPhone 15 Pro,iPhone,Midnight,25–34,North America,United States,London
+iPhone 15,AirPods,Starlight,35–44,Europe,United Kingdom,Berlin
+MacBook Pro,Mac,Starlight,25–34,Europe,United States,New York
+MacBook Pro,iPad,Midnight,25–34,Europe,United States,New York
+iPhone 15,iPad,Silver,25–34,North America,Spain,London
+iPhone 15 Pro,Mac,Midnight,55+,North America,Germany,New York
+AirPods Pro,iPhone,Space Gray,35–44,Europe,Spain,London
+iPhone 15 Pro,Mac,White,25–34,North America,United States,London
+iPhone 15,Mac,Black,25–34,Europe,United Kingdom,New York
+MacBook Air,iPad,Starlight,35–44,Asia,United States,Madrid
+iMac,Mac,Gold,25–34,Middle East,United States,London
+iPhone 15 Pro,iPhone,Gold,25–34,North America,Germany,New York
+iPad Pro,iPhone,Silver,55+,Asia,United States,London
+iPad,Mac,Gold,25–34,Europe,Germany,Berlin
+iPhone 15 Pro,Mac,Space Gray,35–44,North America,Germany,Berlin
+iPad Pro,Mac,Starlight,55+,North America,United States,New York
+MacBook Air,Mac,Midnight,25–34,Asia,United Kingdom,Madrid
+MacBook Pro,Accessories,Space Gray,18–24,North America,United Kingdom,London
+MacBook Pro,Mac,Silver,25–34,North America,United States,New York
+MacBook Pro,iPhone,Space Gray,45–54,North America,Germany,New York
+iPhone 15,iPhone,Midnight,45–54,Asia,United Kingdom,New York
+Apple Watch Series 9,iPhone,White,45–54,Asia,United States,Paris
+iPhone 15 Pro,iPhone,Silver,25–34,Asia,United Kingdom,New York
+iPhone 15,iPhone,White,45–54,North America,Spain,New York
+iPhone 15,iPhone,Black,55+,North America,United States,Paris
+MacBook Pro,iPhone,White,35–44,Europe,Germany,New York
+iPad Pro,iPhone,Black,55+,Europe,United States,New York
+iPhone 15,AirPods,Black,45–54,North America,Germany,New York
+MacBook Pro,iPhone,White,35–44,Europe,Germany,New York
+iPhone 15 Pro,Mac,Silver,35–44,Middle East,United States,New York
+MacBook Pro,Mac,Midnight,25–34,Asia,United States,Berlin
+iPhone 15,Accessories,Space Gray,25–34,Asia,Germany,New York
+iPad Pro,iPhone,Space Gray,35–44,Oceania,United States,New York
+MacBook Air,Mac,Midnight,25–34,North America,Germany,Berlin
+AirPods Pro,Accessories,Starlight,45–54,Europe,United States,Berlin
+iPhone 15,Apple Watch,Starlight,55+,Africa,France,London
+iPhone 15 Pro,Apple Watch,Black,45–54,North America,Germany,London
+iPhone 15,iPhone,Black,18–24,Asia,France,New York
+AirPods Pro,iPhone,Silver,25–34,Europe,United States,London
+Apple Watch Series 9,iPad,Gold,25–34,Europe,United Kingdom,London
+iPhone 15 Pro,AirPods,White,35–44,Europe,United Kingdom,New York
+iPad Pro,Mac,Black,45–54,Oceania,United States,Paris
+iPad,Mac,Space Gray,55+,Asia,United States,New York
+MacBook Pro,iPhone,Silver,25–34,North America,United States,Berlin
+MacBook Pro,iPad,White,55+,South America,Germany,New York
+iPhone 15 Pro,iPhone,Silver,45–54,North America,United Kingdom,Berlin
+iPhone 15,iPhone,White,25–34,North America,United States,London
+Apple Watch Series 9,Mac,White,45–54,Europe,United Kingdom,Paris
+AirPods Pro,Mac,Midnight,25–34,Europe,United States,New York
+MacBook Pro,iPhone,Black,25–34,Europe,United States,London
+iPhone 15 Pro,iPhone,Silver,35–44,Oceania,Spain,London
+iPhone 15 Pro,Mac,Silver,25–34,Asia,France,Berlin
+iPad Pro,iPhone,Midnight,35–44,Europe,United Kingdom,London
+Apple Watch Series 9,Mac,Space Gray,35–44,North America,United States,London
+Apple Watch Series 9,iPhone,Space Gray,35–44,South America,Germany,London
+iPad,Mac,Starlight,25–34,South America,United States,New York
+MacBook Pro,Mac,Black,35–44,Asia,United States,London
+iPhone 15,iPhone,Black,35–44,North America,United States,New York
+iPhone 15,iPhone,Gold,35–44,North America,United Kingdom,Madrid
+Apple Watch Series 9,iPhone,Midnight,25–34,North America,United Kingdom,Berlin
+MacBook Pro,iPhone,Space Gray,18–24,North America,United States,Madrid
+iPhone 15,Accessories,White,35–44,North America,United Kingdom,New York
+iPhone 15,iPhone,Silver,25–34,Oceania,France,Paris
+iPad Pro,Apple Watch,Black,35–44,Europe,United States,Paris
+iPhone 15,iPhone,Silver,45–54,North America,Germany,Berlin
+iPhone 15,iPad,Silver,35–44,North America,France,London
+MacBook Pro,iPad,Gold,35–44,North America,United States,New York
+iPad Pro,Mac,Space Gray,55+,North America,United States,Paris
+iPad Pro,Mac,Black,45–54,North America,United Kingdom,London
+iPhone 15 Pro,Mac,Silver,55+,North America,United Kingdom,New York
+iPad Pro,iPhone,Black,45–54,Asia,Germany,New York
+iPhone 15 Pro,AirPods,White,25–34,Africa,United States,Madrid
+iPhone 15 Pro,Apple Watch,Gold,25–34,North America,Spain,Paris
+iPad Pro,Accessories,White,35–44,Europe,United States,Madrid
+MacBook Pro,iPhone,Black,25–34,Asia,United States,London
+Apple Watch Series 9,iPad,Starlight,35–44,North America,United Kingdom,New York
+iPad Pro,AirPods,Black,25–34,North America,United States,New York
+MacBook Pro,iPhone,Space Gray,35–44,South America,United States,New York
+iPhone 15,iPhone,Silver,35–44,North America,United States,New York
+MacBook Air,iPad,Silver,35–44,Europe,United States,New York
+iPhone 15 Pro,Mac,White,35–44,Europe,United States,New York
+iPhone 15 Pro,Apple Watch,Gold,45–54,North America,Spain,London
+Mac mini,iPhone,Starlight,25–34,North America,United States,Madrid
+MacBook Air,iPad,Midnight,45–54,Asia,Germany,London
+Apple Watch Series 9,iPhone,Silver,18–24,North America,Germany,Paris
+MacBook Pro,iPhone,Space Gray,55+,North America,France,London
+iPad,iPhone,White,35–44,Asia,United States,New York
+MacBook Pro,Apple Watch,White,25–34,Europe,France,New York
+MacBook Pro,iPad,Midnight,25–34,North America,United Kingdom,New York
+MacBook Air,Mac,Space Gray,35–44,South America,United Kingdom,New York
+iPhone 15,Mac,Gold,25–34,North America,United Kingdom,Berlin
+iPad Pro,Apple Watch,Space Gray,25–34,Asia,Germany,New York
+iPhone 15 Pro,Mac,Gold,35–44,Asia,United States,New York
+iPhone 15,Apple Watch,Space Gray,35–44,Europe,Germany,New York
+MacBook Pro,Mac,Space Gray,35–44,Europe,United Kingdom,Madrid
+iPhone 15,Mac,Black,55+,Africa,Germany,Berlin
+AirPods Pro,Mac,White,35–44,North America,Spain,Berlin
+Mac mini,iPhone,Space Gray,35–44,Asia,United States,New York
+AirPods Pro,iPad,Midnight,18–24,North America,Spain,Berlin
+MacBook Air,Mac,Space Gray,35–44,North America,United States,Berlin
+iPhone 15,iPhone,Silver,25–34,North America,United States,London
+AirPods Pro,AirPods,White,55+,Oceania,United States,Madrid
+MacBook Air,Mac,Silver,45–54,Africa,United States,New York
+Mac mini,Mac,White,35–44,North America,United Kingdom,Madrid
+Mac mini,AirPods,Silver,25–34,North America,United States,Paris
+Apple Watch Series 9,Mac,Space Gray,45–54,Asia,United States,New York
+iPhone 15 Pro,iPhone,Space Gray,45–54,Europe,France,London
+MacBook Air,AirPods,Black,25–34,North America,Germany,Madrid
+Apple Watch Series 9,Mac,Midnight,25–34,Europe,Germany,New York
+iPhone 15 Pro,iPhone,Silver,45–54,Europe,France,London
+iPhone 15,iPhone,Gold,25–34,Middle East,Germany,Madrid
+MacBook Pro,iPad,Black,55+,North America,United States,London
+AirPods Pro,Mac,Silver,25–34,Europe,United States,New York
+iPad Pro,Mac,Silver,18–24,Europe,Germany,London
+MacBook Pro,AirPods,Black,45–54,Asia,United States,New York
+iPhone 15,iPad,Space Gray,25–34,Europe,United Kingdom,London
+MacBook Pro,iPhone,Silver,35–44,Europe,United States,New York
+iMac,iPhone,Space Gray,25–34,North America,United States,London
+iPhone 15,iPhone,Black,18–24,Asia,United Kingdom,London
+MacBook Pro,iPad,Space Gray,35–44,Europe,United Kingdom,Berlin
+Apple Watch Series 9,iPhone,White,35–44,North America,United Kingdom,London
+iPad Pro,Mac,Gold,35–44,Europe,United Kingdom,London
+iPad Pro,iPad,Starlight,45–54,North America,United States,Berlin
+iPad Pro,Apple Watch,Silver,35–44,North America,United States,New York
+MacBook Air,iPhone,Midnight,25–34,South America,France,London
+iPhone 15 Pro,Apple Watch,Gold,25–34,Europe,United Kingdom,New York
+iPad,iPhone,Starlight,55+,Asia,United States,Madrid
+iPad,Apple Watch,Space Gray,45–54,North America,Germany,New York
+Apple Watch Series 9,iPhone,Silver,35–44,Asia,United States,London
+AirPods Pro,Mac,Space Gray,25–34,North America,United States,Berlin
+MacBook Pro,iPad,White,25–34,North America,United States,London
+MacBook Pro,iPhone,Black,35–44,Africa,Germany,New York
+iPad,iPhone,Silver,45–54,Asia,United Kingdom,London
+MacBook Pro,iPad,Starlight,35–44,Europe,United States,London
+iPad Pro,iPad,Starlight,45–54,North America,France,Berlin
+iPad,Mac,White,45–54,South America,United States,New York
+Apple Watch Series 9,iPad,White,25–34,Europe,United States,London
+iPhone 15 Pro,Mac,Silver,25–34,Asia,United States,London
+MacBook Air,iPhone,Space Gray,25–34,Asia,United States,Berlin
+iPhone 15,iPhone,Midnight,25–34,North America,United States,London
+MacBook Pro,iPhone,Starlight,45–54,North America,United Kingdom,London
+iPhone 15,AirPods,Starlight,35–44,Europe,Germany,New York
+MacBook Air,Mac,White,35–44,North America,United Kingdom,New York
+MacBook Pro,Mac,Gold,25–34,North America,United States,New York
+iPhone 15 Pro,Mac,White,25–34,Oceania,United States,New York
+MacBook Pro,AirPods,Midnight,25–34,Europe,United States,London
+iPhone 15,iPhone,Space Gray,25–34,Asia,United States,London
+iPhone 15,Mac,Space Gray,35–44,Europe,Germany,New York
+iPad,Mac,Gold,25–34,Europe,United States,Madrid
+MacBook Air,Mac,Starlight,35–44,North America,Germany,New York
+iPhone 15,iPhone,White,18–24,North America,France,Berlin
+MacBook Pro,Apple Watch,Space Gray,25–34,North America,United States,London
+iPad,AirPods,Midnight,25–34,North America,Germany,New York
+iPhone 15 Pro,Mac,Silver,35–44,Asia,United Kingdom,New York
+MacBook Pro,iPad,Black,35–44,North America,United Kingdom,London
+iPhone 15,AirPods,Black,25–34,Europe,United Kingdom,New York
+iPhone 15,iPad,Black,25–34,North America,United States,Madrid
+MacBook Pro,iPhone,Starlight,35–44,North America,United States,London
+MacBook Pro,Mac,White,18–24,Europe,United States,Madrid
+MacBook Pro,Mac,Gold,25–34,North America,United States,New York
+iPad Pro,Mac,Space Gray,45–54,North America,United Kingdom,Berlin
+Mac mini,iPad,Silver,35–44,North America,United States,London
+MacBook Pro,AirPods,Midnight,25–34,North America,France,Berlin
+iPhone 15 Pro,AirPods,Silver,55+,Asia,Germany,New York
+iPad,Mac,Midnight,45–54,North America,United States,Berlin
+iPhone 15 Pro,iPhone,Starlight,25–34,North America,United States,London
+MacBook Air,Accessories,White,35–44,Europe,France,Berlin
+iPhone 15,Apple Watch,Black,35–44,North America,Germany,New York
+iPhone 15,iPhone,White,25–34,South America,Germany,Paris
+Mac mini,AirPods,Starlight,25–34,Europe,United States,New York
+Apple Watch Series 9,Apple Watch,Gold,25–34,Europe,United States,Paris
+iPad Pro,Mac,Gold,35–44,Europe,United States,Paris
+MacBook Air,Mac,Starlight,25–34,North America,United States,Paris
+iPhone 15,Mac,Midnight,45–54,Europe,Germany,London
+iPhone 15,iPhone,Space Gray,35–44,North America,Germany,London
+iPhone 15 Pro,iPhone,Space Gray,18–24,South America,United Kingdom,Madrid
+MacBook Pro,Apple Watch,Midnight,35–44,North America,France,New York
+iPad Pro,iPhone,Gold,25–34,Europe,United Kingdom,London
+iPad Pro,iPhone,Gold,35–44,Europe,United States,Berlin
+iPhone 15 Pro,Mac,Gold,35–44,North America,United States,Berlin
+Mac mini,Mac,White,25–34,North America,France,New York
+iPad Pro,AirPods,Gold,35–44,Asia,United States,Berlin
+MacBook Pro,iPhone,Silver,25–34,Asia,France,Paris
+MacBook Pro,iPhone,Black,18–24,North America,Germany,New York
+MacBook Air,iPad,Gold,25–34,Asia,United States,Paris
+iPhone 15 Pro,Mac,Midnight,25–34,Africa,United Kingdom,New York
+MacBook Air,iPhone,Black,55+,South America,France,New York
+iPad,Mac,White,25–34,North America,United Kingdom,New York
+iPhone 15,iPhone,Midnight,25–34,Asia,France,New York
+iPhone 15,iPhone,Black,35–44,North America,France,Paris
+iPhone 15,Mac,Midnight,18–24,Middle East,United States,New York
+iPhone 15,Mac,White,55+,Europe,United States,London
+Apple Watch Series 9,AirPods,Silver,35–44,North America,France,New York
+iPad Pro,Mac,White,45–54,Asia,United Kingdom,London
+MacBook Air,Mac,White,25–34,North America,United States,London
+iPhone 15,Mac,Midnight,25–34,Middle East,United States,New York
+MacBook Air,iPhone,Starlight,25–34,Africa,United Kingdom,New York
+MacBook Air,iPad,Space Gray,45–54,Europe,France,Paris
+iPhone 15,iPhone,Gold,18–24,North America,Germany,New York
+MacBook Air,Accessories,Gold,25–34,Europe,United Kingdom,London
+MacBook Air,iPhone,Silver,55+,North America,United States,New York
+MacBook Pro,Mac,Silver,35–44,North America,United States,Berlin
+MacBook Pro,iPhone,Gold,25–34,Asia,France,New York
+iPhone 15,Accessories,Space Gray,25–34,North America,United States,London
+MacBook Air,Mac,Gold,55+,North America,United States,New York
+MacBook Pro,Mac,Starlight,18–24,Africa,United States,Madrid
+MacBook Pro,iPhone,Space Gray,35–44,North America,United Kingdom,New York
+Apple Watch Series 9,iPad,Silver,45–54,North America,France,Berlin
+iPad Pro,iPhone,Black,25–34,South America,United States,London
+iPhone 15,AirPods,Midnight,35–44,North America,United States,New York
+iPhone 15,iPhone,Starlight,18–24,Asia,United Kingdom,Berlin
+MacBook Pro,iPhone,Starlight,25–34,Middle East,Spain,New York
+iPhone 15,iPhone,Silver,45–54,South America,United States,Paris
+MacBook Pro,Mac,Silver,45–54,Europe,United States,Paris
+AirPods Pro,Mac,White,35–44,North America,United States,Paris
+MacBook Pro,iPhone,Starlight,35–44,North America,France,New York
+MacBook Air,iPad,White,25–34,Asia,United States,Berlin
+MacBook Pro,Mac,White,18–24,South America,United States,London
+MacBook Air,Mac,Midnight,25–34,Europe,United Kingdom,Paris
+MacBook Pro,Mac,White,25–34,North America,Germany,London
+AirPods Pro,Mac,Space Gray,25–34,North America,United States,Paris
+MacBook Air,Mac,Gold,25–34,North America,France,London
+Mac mini,iPhone,Black,25–34,Asia,United States,London
+AirPods Pro,iPhone,Silver,25–34,Europe,United Kingdom,New York
+iPhone 15,Apple Watch,Space Gray,35–44,South America,United States,Berlin
+iPhone 15,AirPods,Black,45–54,Asia,Germany,London
+iPhone 15,Mac,Starlight,25–34,North America,United States,London
+iPhone 15,iPhone,Starlight,55+,Europe,France,Berlin
+iPhone 15,Mac,Starlight,45–54,Europe,Germany,London
+iPad Pro,Mac,Space Gray,25–34,Europe,United Kingdom,New York
+iPhone 15,iPhone,Space Gray,45–54,Asia,Germany,London
+iPhone 15 Pro,iPhone,Silver,35–44,Asia,Germany,London
+Apple Watch Series 9,iPad,Gold,35–44,Asia,United States,London
+iPhone 15,iPad,White,25–34,North America,United States,New York
+iPad,iPhone,Starlight,35–44,North America,France,New York
+iPhone 15 Pro,iPhone,Midnight,25–34,Asia,United States,New York
+iPhone 15,iPhone,Gold,35–44,North America,Germany,Berlin
+iPad Pro,iPad,Midnight,35–44,North America,Spain,New York
+MacBook Pro,iPhone,Silver,35–44,North America,United States,London
+Apple Watch Series 9,iPhone,Silver,35–44,Europe,United Kingdom,Madrid
+iPad Pro,iPad,Silver,35–44,North America,United States,New York
+iPad,iPhone,Black,25–34,Europe,United Kingdom,London
+iPhone 15 Pro,iPad,Midnight,25–34,Middle East,United States,Berlin
+iPhone 15,iPhone,Gold,45–54,North America,United States,Madrid
+iPad,iPhone,Gold,25–34,North America,United Kingdom,Berlin
+iPad,iPhone,Space Gray,18–24,North America,Germany,Berlin
+iMac,iPad,Space Gray,25–34,South America,Germany,Paris
+MacBook Air,Apple Watch,Starlight,25–34,North America,United Kingdom,London
+MacBook Air,Apple Watch,Space Gray,55+,North America,United States,Paris
+iPad,Mac,Silver,35–44,North America,United Kingdom,New York
+iPhone 15 Pro,iPad,Gold,55+,Asia,United States,Madrid
+AirPods Pro,iPhone,Midnight,35–44,Europe,France,London
+Apple Watch Series 9,iPhone,Silver,35–44,Asia,Germany,London
+MacBook Air,AirPods,Black,25–34,South America,Germany,New York
+iPad,iPhone,Space Gray,35–44,North America,France,Berlin
+iPad,iPhone,Silver,25–34,Asia,United States,New York
+iPhone 15,iPhone,Silver,45–54,North America,Germany,Paris
+AirPods Pro,iPhone,Black,45–54,South America,United States,Paris
+MacBook Pro,iPhone,White,25–34,Europe,France,New York
+iPad,Mac,Gold,55+,South America,United States,Paris
+iPhone 15 Pro,Mac,Midnight,45–54,North America,Germany,Berlin
+Apple Watch Series 9,AirPods,Starlight,35–44,North America,France,London
+MacBook Air,Apple Watch,White,25–34,North America,United States,New York
+iPhone 15,iPhone,Space Gray,35–44,North America,United States,New York
+AirPods Pro,iPhone,Silver,35–44,North America,Germany,New York
+iPhone 15,Mac,Black,25–34,North America,United States,New York
+iPhone 15 Pro,Mac,Black,18–24,North America,United States,Paris
+Mac mini,iPhone,Gold,45–54,Europe,United States,New York
+Mac mini,Mac,White,25–34,Asia,United States,Paris
+MacBook Pro,Mac,Starlight,35–44,Europe,France,New York
+MacBook Pro,Mac,Gold,55+,North America,United Kingdom,London
+MacBook Air,Mac,Silver,45–54,Europe,United States,Berlin
+iPhone 15 Pro,iPhone,Gold,25–34,North America,United States,Paris
+iPhone 15 Pro,AirPods,Midnight,45–54,Africa,United States,New York
+iPad Pro,iPad,Black,18–24,North America,United States,London
+iPad,iPhone,Black,18–24,Asia,United States,London
+iPad,Apple Watch,Space Gray,35–44,Africa,United States,New York
+iPad,Mac,Space Gray,25–34,Asia,United States,New York
+iPhone 15,AirPods,Starlight,25–34,Europe,Germany,London
+MacBook Air,iPad,Silver,35–44,Asia,United States,London
+iPhone 15,Mac,Midnight,25–34,Middle East,United Kingdom,Berlin
+MacBook Pro,iPhone,White,25–34,Europe,United Kingdom,New York
+MacBook Air,iPhone,Gold,35–44,Europe,United Kingdom,London
+Apple Watch Series 9,Mac,Starlight,45–54,Europe,United Kingdom,London
+MacBook Air,Mac,Silver,35–44,Europe,United Kingdom,Berlin
+iPhone 15,iPhone,Space Gray,25–34,Europe,France,Paris
+iPhone 15,iPhone,Gold,25–34,Europe,United Kingdom,London
+iPad,Apple Watch,Space Gray,25–34,North America,United Kingdom,Berlin
+MacBook Pro,Accessories,Gold,18–24,North America,Germany,New York
+iPhone 15,Mac,White,45–54,North America,United Kingdom,London
+iPhone 15,iPhone,Silver,25–34,North America,United States,New York
+iPad Pro,iPhone,Gold,25–34,North America,United States,London
+iPhone 15,iPhone,Midnight,35–44,Europe,United States,Berlin
+iPad,AirPods,Starlight,35–44,North America,France,Paris
+iPad Pro,iPhone,Black,35–44,Asia,Germany,New York
+iPhone 15,Mac,Midnight,25–34,North America,France,London
+iPhone 15,iPhone,Midnight,25–34,North America,United Kingdom,London
+iMac,Mac,Starlight,25–34,Asia,United States,New York
+MacBook Air,iPad,Black,25–34,Europe,United States,New York
+MacBook Air,Apple Watch,Midnight,35–44,North America,United Kingdom,New York
+iPad,iPhone,Gold,45–54,South America,United Kingdom,New York
+AirPods Pro,iPhone,Gold,35–44,South America,Spain,New York
+iMac,iPhone,Gold,45–54,North America,United States,New York
+iPad,AirPods,Black,25–34,North America,United Kingdom,New York
+MacBook Air,Apple Watch,Midnight,35–44,Middle East,United Kingdom,Berlin
+iPhone 15,Mac,Black,25–34,Europe,United Kingdom,London
+iPad,Mac,Gold,35–44,Europe,United Kingdom,Madrid
+MacBook Pro,iPad,Starlight,35–44,Asia,Germany,London
+MacBook Air,iPhone,Midnight,25–34,North America,United States,Berlin
+AirPods Pro,AirPods,Midnight,25–34,Europe,Germany,Paris
+iPhone 15,Mac,Space Gray,55+,North America,United Kingdom,Berlin
+MacBook Air,Mac,Space Gray,25–34,Asia,France,London
+iPhone 15,Mac,White,25–34,Europe,Germany,Berlin
+MacBook Air,iPhone,Silver,25–34,Europe,United States,New York
+iPhone 15,iPhone,Space Gray,45–54,North America,United States,New York
+iPhone 15,iPad,Black,35–44,North America,Spain,London
+iPhone 15,iPhone,Space Gray,35–44,Europe,United Kingdom,London
+MacBook Pro,Mac,White,25–34,Asia,France,New York
+iPad Pro,iPhone,Midnight,35–44,Europe,United States,Madrid
+MacBook Pro,Mac,White,25–34,North America,United Kingdom,Berlin
+Mac mini,iPhone,Midnight,45–54,South America,Germany,London
+MacBook Air,Mac,Starlight,35–44,North America,France,Madrid
+iPhone 15 Pro,iPad,Starlight,25–34,Oceania,United States,London
+Apple Watch Series 9,iPhone,Midnight,18–24,North America,Germany,Madrid
+iPhone 15 Pro,Mac,Silver,18–24,Europe,United Kingdom,London
+Mac mini,Mac,Space Gray,25–34,North America,United States,New York
+iPhone 15,iPad,Black,25–34,South America,United Kingdom,Berlin
+Mac mini,AirPods,Black,35–44,Europe,United Kingdom,Berlin
+iPhone 15,iPad,Gold,35–44,North America,France,Berlin
+Apple Watch Series 9,iPhone,Midnight,25–34,North America,United States,Madrid
+MacBook Pro,iPhone,Black,25–34,North America,United States,Berlin
+iMac,iPhone,Silver,25–34,North America,United States,London
+iPhone 15,Mac,Midnight,45–54,Oceania,United States,Paris
+MacBook Pro,iPhone,Silver,25–34,Europe,United States,Berlin
+Mac mini,Mac,Black,35–44,Asia,Germany,London
+MacBook Pro,Mac,Black,45–54,Europe,United States,Paris
+MacBook Pro,iPhone,Gold,35–44,Europe,France,New York
+iPad Pro,iPad,Black,45–54,North America,Spain,Berlin
+MacBook Air,iPhone,Midnight,25–34,North America,United Kingdom,Paris
+MacBook Pro,iPhone,Starlight,55+,Asia,France,Berlin
+MacBook Pro,iPad,Midnight,25–34,Africa,Germany,Berlin
+AirPods Pro,Mac,Midnight,25–34,North America,United Kingdom,Berlin
+iPhone 15,iPad,Gold,35–44,North America,United States,London
+iPhone 15 Pro,Mac,Gold,55+,Europe,United States,Paris
+Mac mini,iPhone,Black,45–54,Middle East,United Kingdom,New York
+Apple Watch Series 9,Apple Watch,White,18–24,North America,France,New York
+MacBook Air,iPad,White,25–34,Europe,United States,New York
+MacBook Pro,iPad,Gold,55+,South America,France,London
+iPhone 15 Pro,iPhone,Black,25–34,North America,United Kingdom,London
+iPhone 15,Mac,White,45–54,North America,United States,Paris
+MacBook Air,Mac,Black,45–54,Europe,Spain,London
+MacBook Air,iPhone,Black,35–44,South America,United Kingdom,London
+MacBook Pro,AirPods,Black,25–34,North America,United States,New York
+iPhone 15,iPhone,Space Gray,35–44,Europe,United Kingdom,London
+Mac mini,Accessories,Midnight,25–34,Europe,United States,London
+iMac,Mac,Black,45–54,Europe,United Kingdom,New York
