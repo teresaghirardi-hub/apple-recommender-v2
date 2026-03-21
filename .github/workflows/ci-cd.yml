@@ -7,8 +7,13 @@ on:
     branches: [main]
 
 jobs:
-  # ── Job 1: Lint and test ───────────────────────────────────────────────────
+  call-train:
+    name: "Train Model"
+    uses: ./.github/workflows/train.yml
+
   lint-test:
+    name: "Lint and Test"
+    needs: call-train
     runs-on: ubuntu-latest
 
     steps:
@@ -24,18 +29,15 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Lint with flake8
-        run: |
-          flake8 02-experiment-tracking/ 03-deployment/ 04-monitoring/ \
-            --max-line-length=100 \
-            --ignore=E501,W503,E241,E221,E302,E305,W292,W391,E272,W291,E226,E231,W293
+        run: flake8 02-experiment-tracking/ 03-deployment/ 04-monitoring/
 
       - name: Run unit tests
         run: |
           cd 03-deployment
           pytest test_predict.py -v
 
-  # ── Job 2: Build Docker image ──────────────────────────────────────────────
   build:
+    name: "Build Docker Image"
     needs: lint-test
     runs-on: ubuntu-latest
 
@@ -43,11 +45,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Download trained models
+        uses: actions/download-artifact@v4
+        with:
+          name: trained-model
+          path: models/
+
       - name: Build Docker image
         run: docker build -f 05-cicd/Dockerfile -t apple-recommender .
 
-  # ── Job 3: Deploy to Render (only on push to main) ─────────────────────────
   deploy:
+    name: "Deploy to Render"
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'

@@ -160,7 +160,7 @@ if page == "🏠 Homepage":
             """, unsafe_allow_html=True)
             st.stop()
 
-        result  = predict_segment(pipeline, input_data)
+        
 
         result  = predict_segment(pipeline, input_data)
         segment = result["segment"]
