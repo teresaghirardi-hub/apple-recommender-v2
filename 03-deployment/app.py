@@ -366,72 +366,165 @@ elif page == "📊 Analytics":
 # ── PAGE 3: Model Info ─────────────────────────────────────────────────────────
 elif page == "🤖 Model Info":
     st.markdown("## 🤖 Model Information")
-    st.caption("How the classifier works")
+    st.caption("How the two models work")
 
-    col1, col2 = st.columns(2)
+    tab1, tab2 = st.tabs(["🎯 Segment Classifier", "💰 Revenue Predictor"])
 
-    with col1:
-        st.markdown("""
-        <div class="card">
-            <h4>🧠 Algorithm</h4>
-            <p><b>Model:</b> Random Forest Classifier</p>
-            <p><b>Training data:</b> 11,500 Apple sales records</p>
-            <p><b>Classes:</b> Individual, Business, Education, Government</p>
-            <p><b>Split:</b> 80% train / 20% test (stratified)</p>
-            <p><b>Tuning:</b> Grid search (n_estimators, max_depth, min_samples_split)</p>
-            <p><b>Tracking:</b> MLflow experiment logging</p>
-        </div>
-        <div class="card">
-            <h4>⚙️ Preprocessing</h4>
-            <p>🔵 <b>Target Encoding</b> → country, city, product_name, color</p>
-            <p>🟢 <b>One-Hot Encoding</b> → category, region</p>
-            <p>🟡 <b>Ordinal Encoding</b> → customer_age_group</p>
-        </div>
-        """, unsafe_allow_html=True)
+    with tab1:
+        col1, col2 = st.columns(2)
 
-    with col2:
-        st.markdown("""
-        <div class="card">
-            <h4>📋 Features (7 total)</h4>
-        """, unsafe_allow_html=True)
-        features = [
-            ("product_name", "43 unique values", "#f5576c"),
-            ("category", "6 categories", "#4facfe"),
-            ("color", "20 colors", "#43e97b"),
-            ("customer_age_group", "5 age groups", "#fa709a"),
-            ("region", "8 regions", "#667eea"),
-            ("country", "47 countries", "#764ba2"),
-            ("city", "514 cities", "#f093fb"),
-        ]
-        for feat, desc, c in features:
-            st.markdown(f"""
-            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem;">
-                <div style="width:10px;height:10px;border-radius:50%;background:{c};flex-shrink:0;"></div>
-                <span><b>{feat}</b> <span style="color:#888;font-size:0.85rem;">— {desc}</span></span>
+        with col1:
+            st.markdown("""
+            <div class="card">
+                <h4>🧠 Algorithm</h4>
+                <p><b>Type:</b> Classification</p>
+                <p><b>Model:</b> Random Forest Classifier</p>
+                <p><b>Training data:</b> 11,500 Apple sales records</p>
+                <p><b>Classes:</b> Individual, Business, Education, Government</p>
+                <p><b>Split:</b> 80% train / 20% test (stratified)</p>
+                <p><b>Tuning:</b> Grid search over n_estimators, max_depth, min_samples_split</p>
+                <p><b>Tracking:</b> MLflow experiment logging</p>
+            </div>
+            <div class="card">
+                <h4>⚙️ Preprocessing Pipeline</h4>
+                <p>🔵 <b>Target Encoding</b> → country, city, product_name, color<br>
+                <span style="color:#888;font-size:0.85rem;">High cardinality — replaces each value with avg target</span></p>
+                <p>🟢 <b>One-Hot Encoding</b> → category, region<br>
+                <span style="color:#888;font-size:0.85rem;">Low cardinality — creates a binary column per value</span></p>
+                <p>🟡 <b>Ordinal Encoding</b> → customer_age_group<br>
+                <span style="color:#888;font-size:0.85rem;">Ordered — respects natural age progression</span></p>
+            </div>
+            <div class="card">
+                <h4>📊 Metrics</h4>
+                <p><b>Accuracy:</b> ~26%</p>
+                <p><b>Weighted F1:</b> ~26%</p>
+                <p><b>Baseline (random):</b> 25%</p>
+                <p style="color:#888;font-size:0.85rem;">⚠️ Low accuracy is expected — the dataset is synthetic
+                with randomly assigned segments. With real Apple
+                clickstream data this pipeline would perform significantly better.</p>
             </div>
             """, unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
 
-        st.markdown("""
-        <div class="card">
-            <h4>🚀 Tech Stack</h4>
-            <p>🔬 <b>scikit-learn</b> — model training</p>
-            <p>📊 <b>MLflow</b> — experiment tracking</p>
-            <p>⚡ <b>FastAPI</b> — REST API (live on Render)</p>
-            <p>🎨 <b>Streamlit</b> — this interface</p>
-            <p>🐳 <b>Docker</b> — containerization</p>
-            <p>⚙️ <b>GitHub Actions</b> — CI/CD pipeline</p>
-            <p>☁️ <b>Render</b> — cloud deployment</p>
-        </div>
-        """, unsafe_allow_html=True)
+        with col2:
+            st.markdown("""
+            <div class="card">
+                <h4>📋 Features Used (7)</h4>
+            """, unsafe_allow_html=True)
+            features = [
+                ("product_name", "43 unique values", "High cardinality → Target Encoding", "#f5576c"),
+                ("category", "6 categories", "Low cardinality → One-Hot Encoding", "#4facfe"),
+                ("color", "20 colors", "High cardinality → Target Encoding", "#43e97b"),
+                ("customer_age_group", "5 age groups", "Ordered → Ordinal Encoding", "#fa709a"),
+                ("region", "8 regions", "Low cardinality → One-Hot Encoding", "#667eea"),
+                ("country", "47 countries", "High cardinality → Target Encoding", "#764ba2"),
+                ("city", "514 cities", "High cardinality → Target Encoding", "#f093fb"),
+            ]
+            for feat, desc, enc, c in features:
+                st.markdown(f"""
+                <div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.75rem;">
+                    <div style="width:10px;height:10px;border-radius:50%;background:{c};flex-shrink:0;margin-top:4px;"></div>
+                    <div>
+                        <b>{feat}</b> <span style="color:#888;font-size:0.85rem;">— {desc}</span><br>
+                        <span style="color:#aaa;font-size:0.78rem;">{enc}</span>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+            st.markdown('</div>', unsafe_allow_html=True)
 
-        st.markdown("""
-        <div class="card">
-            <h4>💰 Revenue Predictor</h4>
-            <p><b>Model:</b> Random Forest Regressor</p>
-            <p><b>Target:</b> revenue_usd</p>
-            <p><b>Extra features vs classifier:</b> sales_channel, payment_method, discount_pct, units_sold</p>
-            <p><b>Metrics:</b> MAE, RMSE, R²</p>
-            <p><b>Use case:</b> Estimate customer lifetime value and optimize pricing/promotions</p>
+            st.markdown("""
+            <div class="card">
+                <h4>🗑️ Excluded Columns</h4>
+                <p>❌ <b>Data leakage:</b> units_sold, revenue_usd, discounted_price_usd, return_status</p>
+                <p>❌ <b>Noise:</b> sales_channel, payment_method (uniform across segments)</p>
+                <p>❌ <b>Missing data:</b> previous_device_os (70%), customer_rating (29%)</p>
+                <p>❌ <b>Identifiers:</b> sale_id, sale_date, currency</p>
+            </div>
+            """, unsafe_allow_html=True)
+
+    with tab2:
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.markdown("""
+            <div class="card">
+                <h4>🧠 Algorithm</h4>
+                <p><b>Type:</b> Regression</p>
+                <p><b>Model:</b> Random Forest Regressor</p>
+                <p><b>Training data:</b> 11,500 Apple sales records</p>
+                <p><b>Target:</b> revenue_usd (continuous dollar amount)</p>
+                <p><b>Split:</b> 80% train / 20% test</p>
+                <p><b>Tuning:</b> Grid search over n_estimators, max_depth, min_samples_split</p>
+                <p><b>Tracking:</b> MLflow experiment logging</p>
+            </div>
+            <div class="card">
+                <h4>📊 Metrics</h4>
+                <p><b>MAE</b> (Mean Absolute Error) — average dollar error</p>
+                <p><b>RMSE</b> (Root Mean Squared Error) — penalises large errors</p>
+                <p><b>R²</b> — how much variance the model explains (0-1)</p>
+                <p style="color:#888;font-size:0.85rem;">Higher R² = better. Negative R² = worse than predicting the mean.</p>
+            </div>
+            <div class="card">
+                <h4>💡 Business Value</h4>
+                <p>Estimates expected revenue for a given sales scenario.</p>
+                <p>Useful for:</p>
+                <p>📦 <b>Inventory planning</b> — forecast demand by product</p>
+                <p>💸 <b>Discount optimisation</b> — find the sweet spot</p>
+                <p>🎯 <b>Sales targeting</b> — prioritise high-value customers</p>
+            </div>
+            """, unsafe_allow_html=True)
+
+        with col2:
+            st.markdown("""
+            <div class="card">
+                <h4>📋 Features Used (11)</h4>
+            """, unsafe_allow_html=True)
+            rev_features = [
+                ("product_name", "43 unique values", "Target Encoding", "#f5576c"),
+                ("category", "6 categories", "One-Hot Encoding", "#4facfe"),
+                ("color", "20 colors", "Target Encoding", "#43e97b"),
+                ("customer_age_group", "5 age groups", "Ordinal Encoding", "#fa709a"),
+                ("region", "8 regions", "One-Hot Encoding", "#667eea"),
+                ("country", "47 countries", "Target Encoding", "#764ba2"),
+                ("city", "514 cities", "Target Encoding", "#f093fb"),
+                ("sales_channel", "6 channels", "One-Hot Encoding", "#f5a623"),
+                ("payment_method", "7 methods", "One-Hot Encoding", "#7ed321"),
+                ("discount_pct", "0–50%", "StandardScaler", "#4a90e2"),
+                ("units_sold", "1–10", "StandardScaler", "#e74c3c"),
+            ]
+            for feat, desc, enc, c in rev_features:
+                st.markdown(f"""
+                <div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.75rem;">
+                    <div style="width:10px;height:10px;border-radius:50%;background:{c};flex-shrink:0;margin-top:4px;"></div>
+                    <div>
+                        <b>{feat}</b> <span style="color:#888;font-size:0.85rem;">— {desc}</span><br>
+                        <span style="color:#aaa;font-size:0.78rem;">{enc}</span>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+            st.markdown('</div>', unsafe_allow_html=True)
+
+            st.markdown("""
+            <div class="card">
+                <h4>➕ Extra vs Classifier</h4>
+                <p>The revenue model uses 4 additional features that would cause leakage in the segment classifier:</p>
+                <p>✅ <b>sales_channel</b> — B2B channels → higher revenue</p>
+                <p>✅ <b>payment_method</b> — some methods correlate with order size</p>
+                <p>✅ <b>discount_pct</b> — directly affects final price</p>
+                <p>✅ <b>units_sold</b> — more units = more revenue</p>
+            </div>
+            """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="card" style="margin-top:1rem;">
+        <h4>🚀 Tech Stack</h4>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <span style="background:#667eea22;color:#667eea;padding:4px 12px;border-radius:20px;font-weight:600;">🔬 scikit-learn</span>
+            <span style="background:#f5576c22;color:#f5576c;padding:4px 12px;border-radius:20px;font-weight:600;">📊 MLflow</span>
+            <span style="background:#43e97b22;color:#43e97b;padding:4px 12px;border-radius:20px;font-weight:600;">⚡ FastAPI</span>
+            <span style="background:#4facfe22;color:#4facfe;padding:4px 12px;border-radius:20px;font-weight:600;">🎨 Streamlit</span>
+            <span style="background:#fa709a22;color:#fa709a;padding:4px 12px;border-radius:20px;font-weight:600;">🐳 Docker</span>
+            <span style="background:#764ba222;color:#764ba2;padding:4px 12px;border-radius:20px;font-weight:600;">⚙️ GitHub Actions</span>
+            <span style="background:#f5a62322;color:#f5a623;padding:4px 12px;border-radius:20px;font-weight:600;">☁️ Render</span>
         </div>
-        """, unsafe_allow_html=True)
+    </div>
+    """, unsafe_allow_html=True)
