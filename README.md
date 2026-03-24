@@ -3,7 +3,7 @@
 **Real-time customer segment classifier for Apple homepage personalisation.**
 
 Classifies website visitors into **Individual, Business, Education, or Government** and serves
-personalised product recommendations. Includes a revenue predictor, analytics dashboard,
+personalised product recommendations. Includes an analytics dashboard,
 drift monitoring, and a full CI/CD pipeline.
 
 **Team 2:** Marcos Ortiz, Nuria Díaz Jiménez, Siddharth Murali, Teresa Ghirardi, Dan Tigu  
@@ -20,12 +20,10 @@ apple-recommender-v2/
 │   ├── apple_eda.ipynb                  # Exploratory data analysis
 │   └── baseline.ipynb                   # Baseline model comparison
 ├── 02-experiment-tracking/
-│   ├── train.py                         # Segment classifier (Random Forest + MLflow)
-│   ├── train_revenue.py                 # Revenue regressor (Random Forest + MLflow)
+│   ├── train.py                         # Segment classifier (Random Forest + MLflow)               
 │   └── experiment_tracking.ipynb
 ├── 03-deployment/
 │   ├── predict.py                       # Shared segment prediction logic
-│   ├── predict_revenue.py               # Shared revenue prediction logic
 │   ├── api.py                           # FastAPI REST endpoint
 │   ├── app.py                           # Streamlit multi-page UI
 │   └── test_predict.py                  # Unit tests (pytest)
@@ -67,11 +65,6 @@ pip install -r requirements.txt
 ### 1. Train the segment classifier
 ```bash
 python 02-experiment-tracking/train.py
-```
-
-### 2. Train the revenue predictor
-```bash
-python 02-experiment-tracking/train_revenue.py
 ```
 
 ### 3. View MLflow experiment runs

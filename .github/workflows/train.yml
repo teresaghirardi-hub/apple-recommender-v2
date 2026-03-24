@@ -27,9 +27,6 @@ jobs:
       - name: Train segment classifier
         run: python 02-experiment-tracking/train.py
 
-      - name: Train revenue predictor
-        run: python 02-experiment-tracking/train_revenue.py
-
       - name: Upload trained models as artifact
         uses: actions/upload-artifact@v4
         with:

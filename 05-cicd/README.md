@@ -16,7 +16,7 @@ Push to main → Lint → Tests → Build Docker → Deploy to Render
 ## How it works
 
 - **lint-test**: flake8 linting + pytest unit tests
-- **build**: builds Docker image (trains both models inside)
+- **build**: builds Docker image (trains the segment classifier inside)
 - **deploy**: triggers Render deployment via webhook
 
 ---
@@ -26,7 +26,6 @@ Push to main → Lint → Tests → Build Docker → Deploy to Render
 The Dockerfile:
 1. Installs all dependencies
 2. Trains the segment classifier (`train.py`)
-3. Trains the revenue predictor (`train_revenue.py`)
 4. Starts the FastAPI server
 
 ---

@@ -11,7 +11,6 @@ COPY . .
 
 # Train both models at build time so they are ready when the API starts
 RUN python 02-experiment-tracking/train.py
-RUN python 02-experiment-tracking/train_revenue.py
 
 EXPOSE 8000
 

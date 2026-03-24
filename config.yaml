@@ -38,22 +38,6 @@ model:
     max_depth: [5, 10, null]
     min_samples_split: [2, 5]
 
-revenue_model:
-  artifact_path: "models/revenue_pipeline.pkl"
-  features:
-    categorical_high_cardinality: ["country", "city", "product_name", "color"]
-    categorical_ohe: ["category", "region", "sales_channel", "payment_method"]
-    ordinal: ["customer_age_group"]
-    ordinal_categories:
-      customer_age_group: ["18–24", "25–34", "35–44", "45–54", "55+"]
-    numeric: ["discount_pct", "units_sold"]
-    target: "revenue_usd"
-  hyperparams:
-    n_estimators: [100, 200]
-    max_depth: [5, 10, null]
-    min_samples_split: [2, 5]
-  mlflow_experiment: "apple-revenue-predictor"
-
 mlflow:
   experiment_name: "apple-segment-classifier"
   tracking_uri: "mlruns"
