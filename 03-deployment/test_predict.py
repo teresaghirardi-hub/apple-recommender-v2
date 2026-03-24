@@ -2,7 +2,7 @@
 test_predict.py - Unit tests for the prediction module.
 
 Run with:
-    pytest tests/
+    cd 03-deployment && pytest test_predict.py -v
 """
 
 import pytest

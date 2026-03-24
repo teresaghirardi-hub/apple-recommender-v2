@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: apple-recommender
+    name: apple-recommender-v2
     env: docker
     dockerfilePath: ./05-cicd/Dockerfile
     branch: main

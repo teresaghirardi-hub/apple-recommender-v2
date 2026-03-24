@@ -52,7 +52,7 @@ jobs:
           path: models/
 
       - name: Build Docker image
-        run: docker build -f 05-cicd/Dockerfile -t apple-recommender .
+        run: docker build -f 05-cicd/Dockerfile -t apple-recommender-v2 .
 
   deploy:
     name: "Deploy to Render"

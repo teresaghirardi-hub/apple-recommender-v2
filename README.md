@@ -12,34 +12,42 @@ drift monitoring, and a full CI/CD pipeline.
 ---
 
 ## Project Structure
-
 ```
-apple-recommender/
+apple-recommender-v2/
 ├── data/
-│   └── apple_sales.csv          # 11,500 Apple sales transactions
+│   └── apple_sales.csv                  # 11,500 Apple sales transactions
 ├── 01-eda/
-│   └── apple_eda.ipynb          # Exploratory data analysis
+│   ├── apple_eda.ipynb                  # Exploratory data analysis
+│   └── baseline.ipynb                   # Baseline model comparison
 ├── 02-experiment-tracking/
-│   ├── train.py                 # Segment classifier (Random Forest + MLflow)
-│   ├── train_revenue.py         # Revenue regressor (Random Forest + MLflow)
+│   ├── train.py                         # Segment classifier (Random Forest + MLflow)
+│   ├── train_revenue.py                 # Revenue regressor (Random Forest + MLflow)
 │   └── experiment_tracking.ipynb
 ├── 03-deployment/
-│   ├── predict.py               # Shared segment prediction logic
-│   ├── predict_revenue.py       # Shared revenue prediction logic
-│   ├── api.py                   # FastAPI REST endpoint
-│   ├── app.py                   # Streamlit multi-page UI
-│   └── test_predict.py          # Unit tests (pytest)
+│   ├── predict.py                       # Shared segment prediction logic
+│   ├── predict_revenue.py               # Shared revenue prediction logic
+│   ├── api.py                           # FastAPI REST endpoint
+│   ├── app.py                           # Streamlit multi-page UI
+│   └── test_predict.py                  # Unit tests (pytest)
 ├── 04-monitoring/
-│   ├── simulate.py              # Generates synthetic incoming predictions
-│   └── monitor.py               # Drift detection (reference vs current)
+│   ├── data/
+│   │   └── predictions.csv              # Simulated prediction logs
+│   ├── simulate.py                      # Generates synthetic incoming predictions
+│   └── monitor.py                       # Drift detection (reference vs current)
 ├── 05-cicd/
-│   └── Dockerfile               # Trains models + serves API
+│   ├── Dockerfile                       # Trains models + serves API
+│   └── README.md                        # CI/CD pipeline documentation
 ├── .github/
 │   └── workflows/
-│       └── ci-cd.yml            # Lint → Test → Build → Deploy
-├── config.yaml                  # Single source of truth for all settings
-├── render.yaml                  # Render.com deployment manifest
-└── requirements.txt             # All Python dependencies
+│       ├── ci-cd.yml                    # Lint → Test → Build → Deploy
+│       └── train.yml                    # Reusable model training workflow
+├── reports/
+│   └── drift_report.png                 # Drift detection output
+├── .flake8                              # Flake8 linting configuration
+├── .gitignore
+├── config.yaml                          # Single source of truth for all settings
+├── render.yaml                          # Render.com deployment manifest
+└── requirements.txt                     # All Python dependencies
 ```
 
 ---
@@ -129,7 +137,7 @@ python 04-monitoring/monitor.py --current 04-monitoring/data/predictions.csv
 
 ## Live Endpoint
 
-https://apple-recommender.onrender.com
+https://apple-recommender-v2.onrender.com
 
 ---
 
